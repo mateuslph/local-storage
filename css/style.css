@@ -1,0 +1,100 @@
+:root {
+    --input-one: #d8ff6d;
+    --input-two: #53c244;
+    --white: #FFFFFF;
+    --input-border: #0d5e38;
+    --btn-main: #39800a;
+    --btn-hover: #59bd16;
+    --item-radius: #a3ce3f;
+}
+
+html {
+    background: radial-gradient(farthest-corner at right top, #015810, #40c900);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+    padding: 3em 3em;
+}
+
+.principal {
+    padding: 3em 3em;
+    background: var(--input-one);
+    border-radius: 10px;
+}
+
+.adicionar {
+    background-color: var(--input-two);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.adicionar label {
+    width: 100%;
+    padding: 0.5em 0;
+    border-radius: 10px;
+}
+
+.adicionar input {
+    width: 100%;
+    margin: 0 0 1em;
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+    border: 2px solid var(--input-border);
+    font-size: 20px;
+}
+
+.lista {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.input_add {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: var(--white);
+    border-radius: 10px;
+    margin: 0.5em 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.input_btn {
+    background-color: var(--btn-main);
+}
+
+.input_btn:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: var(--white);
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: var(--item-radius);
+    font-weight: 400;
+}
