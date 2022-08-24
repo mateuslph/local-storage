@@ -59,7 +59,7 @@ function atualizaElemento(item) {
 
 function botaoDeleta(id) {
     const elementoBotao = document.createElement("button")
-    elementoBotao.innerText = "X"
+    elementoBotao.innerText = "Excluir"
 
     elementoBotao.addEventListener("click", function() {
         deletaElemento(this.parentNode, id)
@@ -69,9 +69,12 @@ function botaoDeleta(id) {
 }
 
 function deletaElemento(tag, id) {
-    tag.remove()
 
-    itens.splice(itens.findIndex(elemento => elemento.id === id), 1)
+    if (confirm("Você quer mesmo excluir?")) {
+        tag.remove()
 
-    localStorage.setItem("itens", JSON.stringify(itens))
+        itens.splice(itens.findIndex(elemento => elemento.id === id), 1)
+    
+        localStorage.setItem("itens", JSON.stringify(itens))
+    }p   
 }

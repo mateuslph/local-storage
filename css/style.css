@@ -98,3 +98,11 @@ html {
     Background: var(--item-radius);
     font-weight: 400;
 }
+
+button {
+    padding: 0.8em;
+    cursor: pointer;
+    background-color: var(--item-radius);
+    border-radius: 10px;
+    border: none;
+}
