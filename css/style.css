@@ -1,15 +1,15 @@
 :root {
-    --input-one: #d8ff6d;
-    --input-two: #53c244;
+    --input-one: #bb63eb;
+    --input-two: #9e69bd;
     --white: #FFFFFF;
-    --input-border: #0d5e38;
-    --btn-main: #39800a;
-    --btn-hover: #59bd16;
-    --item-radius: #a3ce3f;
+    --input-border: #9828d4;
+    --btn-main: #9349be;
+    --btn-hover: #9775AA;
+    --item-radius: #bf9fd1;
 }
 
 html {
-    background: radial-gradient(farthest-corner at right top, #015810, #40c900);
+    background: radial-gradient(farthest-corner at right top, #9828d4, #d08df5);
     height: 100%;
     font-family: 'Roboto', cursive;
 }
